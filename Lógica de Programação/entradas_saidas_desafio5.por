@@ -11,35 +11,46 @@ programa
 	//● quanto pagou ao sindicato.
 	//● o salário líquido.
 
-	real valorHr, hrsTrabalhadas, salarioBruto, impostoRenda = 0.11, valorInss = 0.08, valorSindicato = 0.05, salarioLiquido;
+	real valorHr, hrsTrabalhadas, salarioBruto, impostoRenda = 0.11, valorInss = 0.08, valorSindicato = 0.05, salarioLiquido
 	
 	funcao inicio()
 	{
+		escreva("------------------------\n")
+		escreva(" Calcular Salário Total\n")
+		escreva("------------------------\n")
 
-		escreva("Quanto você ganha por hora? ");
-		leia(valorHr);
+		escreva("-----------------------------\n")
+		escreva(" Quanto você ganha por hora?\n")
+		escreva("-----------------------------\n")
+		leia(valorHr)
+		limpa()
 
-		escreva("Qual seu número de horas trabalhadas no mês? ");
-		leia(hrsTrabalhadas);
+		escreva("----------------------------------------------\n")
+		escreva( "Qual seu número de horas trabalhadas no mês?\n")
+		escreva("----------------------------------------------\n")
+		leia(hrsTrabalhadas)
+		limpa()
 
-		salarioBruto = valorHr * hrsTrabalhadas;
+		salarioBruto = valorHr * hrsTrabalhadas
 
-		impostoRenda = salarioBruto * impostoRenda;
+		impostoRenda = salarioBruto * impostoRenda
 
-		valorInss = salarioBruto * valorInss;
+		valorInss = salarioBruto * valorInss
 		
-		valorSindicato = salarioBruto * valorSindicato;
+		valorSindicato = salarioBruto * valorSindicato
 
-		salarioLiquido = salarioBruto - impostoRenda - valorInss - valorSindicato;
+		salarioLiquido = salarioBruto - impostoRenda - valorInss - valorSindicato
 
-		escreva("Salário Bruto: " + salarioBruto);
-		escreva("\n");
-		escreva("Pagou ao INSS: " + valorInss);
-		escreva("\n");
-		escreva("Pagou ao Sindicato: " + valorSindicato);
-		escreva("\n");
-		escreva("Salário Líquido: " + salarioLiquido);
-		
+		escreva("---------------------------------------------------------------\n")
+		escreva(" Salário Bruto: " + salarioBruto)
+		escreva("\n")
+		escreva(" Pagou ao INSS (8%): " + valorInss)
+		escreva("\n")
+		escreva(" Pagou ao Sindicato (5%): " + valorSindicato)
+		escreva("\n")
+		escreva(" Salário Líquido (Já com imposto de renda descontado): " + salarioLiquido)
+		escreva("\n")
+		escreva("---------------------------------------------------------------")
 		
 	}
 }
@@ -48,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1196; 
+ * @POSICAO-CURSOR = 1808; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

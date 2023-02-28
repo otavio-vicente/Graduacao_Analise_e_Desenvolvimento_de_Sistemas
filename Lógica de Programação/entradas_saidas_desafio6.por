@@ -8,20 +8,29 @@ programa
 	//litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a
 	//serem compradas e o preço total
 
-	real precoTotal;
-	inteiro tamanho, quantidadeTotal;
+	real precoTotal
+	inteiro tamanho, quantidadeTotal
 	
 	funcao inicio()
 	{
-		escreva("Qual o tamanho em metros quadrados da área a ser pintada? ")
-		leia(tamanho);
-		
-		quantidadeTotal = (tamanho / 3) / 18;
-		quantidadeTotal = quantidadeTotal + 1;
-		precoTotal = quantidadeTotal * 80;
+		escreva("---------------------------------------------------------------\n")
+		escreva(" Calcular Quantidade de Latas Necessárias para a Área Desejada\n")
+		escreva("---------------------------------------------------------------\n")
 
-		escreva("A quantidade de latas a serem compra,das é de: " + quantidadeTotal);
-		escreva(". O preço total será: " + precoTotal);
+		escreva("-----------------------------------------------------------\n")
+		escreva(" Qual o tamanho em metros quadrados da área a ser pintada?\n")
+		escreva("-----------------------------------------------------------\n")
+		leia(tamanho)
+		limpa()
+		
+		quantidadeTotal = (tamanho / 3) / 18
+		quantidadeTotal = quantidadeTotal + 1
+		precoTotal = quantidadeTotal * 80
+
+		escreva("-----------------------------------------------------\n")
+		escreva(" A quantidade de latas a serem compradas é de: " + quantidadeTotal + "\n")
+		escreva(" O preço total será: " + precoTotal + "\n")
+		escreva("-----------------------------------------------------")
 
 		//1 lata = 54m2
 	}
@@ -31,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 703; 
+ * @POSICAO-CURSOR = 1306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
