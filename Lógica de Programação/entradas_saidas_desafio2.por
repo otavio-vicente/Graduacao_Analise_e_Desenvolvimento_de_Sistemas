@@ -19,6 +19,10 @@ programa
 
 	funcao inicio()
 	{
+		escreva("-----------------------\n");
+		escreva(" Valor Final de Vendas\n");
+		escreva("-----------------------\n");
+		
 		escreva("Informe o valor de custo do item direto da fábrica: ");
 		leia(valorItemFabrica);
 
@@ -32,6 +36,7 @@ programa
 		leia(impostos);
 
 		escreva("\n");
+		limpa();
 		
 		porcentagemComissao = porcentagemComissao / 100;
 		lucro = lucro / 100;
@@ -42,8 +47,9 @@ programa
 		valorImpostos = valorItemFabrica * porcentagemComissao * lucro * impostos;
 		valorFinal =  valorItemFabrica + valorComissao + margemLucro + valorImpostos;
 
-		escreva("O valor final de venda de um item a partir de seu custo, incidindo comissão para o representante e impostos do governo é de: " + valorFinal);
-		
+		escreva("--------------------------------------------------------------------------------------------------------------------------------\n")
+		escreva(" O valor final de venda de um item a partir de seu custo, incidindo comissão para o representante e impostos do governo é de: " + valorFinal + "\n");
+		escreva("--------------------------------------------------------------------------------------------------------------------------------\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -51,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1456; 
+ * @POSICAO-CURSOR = 2425; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

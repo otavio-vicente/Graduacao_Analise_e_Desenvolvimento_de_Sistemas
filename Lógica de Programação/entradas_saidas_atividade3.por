@@ -12,7 +12,13 @@ programa
 	{
 		real valorCompra, valorVenda;
 
-		escreva("Qual o valor de compra do produto? ");
+		escreva("------------------\n");
+		escreva(" Compra e Revenda\n");
+		escreva("------------------\n");
+
+		escreva("------------------------------------\n")
+		escreva(" Qual o valor de compra do produto? \n");
+		escreva("------------------------------------\n")
 		leia(valorCompra);
 
 		valorVenda = valorCompra + (valorCompra * 0.35);
@@ -26,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 693; 
+ * @POSICAO-CURSOR = 793; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

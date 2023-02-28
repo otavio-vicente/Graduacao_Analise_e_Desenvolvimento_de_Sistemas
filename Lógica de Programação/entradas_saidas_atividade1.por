@@ -15,36 +15,56 @@ programa
 		inteiro numCasa;
 		real ultimoSalario;
 
+		escreva("------------ Atualização de Dados Cadastrais ------------");
+		escreva("\n");
+		
 		escreva("Nome: ");
 		leia(nome);
+		escreva("\n");
 
 		escreva("Telefone: ");
 		leia(telefone);
+		escreva("\n");
 
 		escreva("E-mail: ");
 		leia(email);
+		escreva("\n");
 
 		escreva("Logradouro: ");
 		leia(logradouro);
+		escreva("\n");
 
 		escreva("Nº da casa: ");
 		leia(numCasa);
+		escreva("\n");
 
 		escreva("Doador de Sangue (S/N): ");
-		leia(doadorSangue)		
+		leia(doadorSangue)	
+		escreva("\n");	
 
 		escreva("Valor Último Salario: ");
 		leia(ultimoSalario);
+		escreva("\n");
 
 		limpa(); //função que limpa o console
 
+		escreva("-----------------------");
+		escreva(" Dados Atualizados !!!");
+		escreva("-----------------------");
+		escreva("\n");
 		escreva("Nome: " + nome);
-		escreva("\n Telefone: " + telefone);
+		escreva("\nTelefone: " + telefone);
+		escreva("\n");
 		escreva("E-mail: " + email);
+		escreva("\n");
 		escreva("Logradouro: " + logradouro);
+		escreva("\n");
 		escreva("Nº da casa: " + numCasa);
-		escreva("Doador de Sangue (S/N): " + doadorSangue);	
+		escreva("\n");
+		escreva("Doador de Sangue (S/N): " + doadorSangue);
+		escreva("\n");	
 		escreva("Valor Último Salario: " + ultimoSalario);	
+		escreva("\n");
 		
 	}
 }
@@ -53,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 482; 
+ * @POSICAO-CURSOR = 1303; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

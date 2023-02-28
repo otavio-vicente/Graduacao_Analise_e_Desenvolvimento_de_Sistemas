@@ -12,17 +12,43 @@ programa
 		real valorCompra, valorParcela;
 		inteiro numParcelas;
 
-		escreva("Valor total da compra: ");
-		leia(valorCompra);
+		escreva("-----------------");
+		escreva("\n");
+		escreva(" Compre aqui !!!");
+		escreva("\n");
+		escreva("-----------------");
+		escreva("\n");
+		
 
-		escreva("Deseja parcelar em quantas vezes? ")
+		escreva("-----------------------------------");
+		escreva("\n");
+		escreva(" Insira o valor total da compra: ");
+		escreva("\n");
+		escreva("-----------------------------------");
+		escreva("\n");
+		leia(valorCompra);
+		escreva("\n");
+
+		escreva("-----------------------------------");
+		escreva("\n");
+		escreva(" Deseja parcelar em quantas vezes? ");
+		escreva("\n");
+		escreva("-----------------------------------");
+		escreva("\n");
 		leia(numParcelas);
+		escreva("\n");
 
 		valorParcela = valorCompra / numParcelas;
 
-		escreva("Sua compra foi de " + valorCompra + " reais");
-		escreva("Você optou por parcelar em " + numParcelas + " vezes");
-		escreva("Sua parcela mensal " + " é de " + valorParcela + " reais");
+		escreva("-----------------------------------");
+		escreva("\n");
+		escreva(" Sua compra foi de " + valorCompra + " reais");
+		escreva("\n");
+		escreva(" Você optou por parcelar em " + numParcelas + " vezes");
+		escreva("\n");
+		escreva(" Sua parcela mensal " + " é de " + valorParcela + " reais");
+		escreva("\n");
+		escreva("-----------------------------------");
 		 
 	}
 }
@@ -31,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 649; 
+ * @POSICAO-CURSOR = 1413; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

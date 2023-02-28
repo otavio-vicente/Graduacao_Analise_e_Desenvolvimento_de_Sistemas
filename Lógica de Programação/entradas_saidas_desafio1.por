@@ -17,19 +17,31 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Insira um número para a variável A: ")
+		escreva("-------------------\n");
+		escreva(" Troca dos Valores\n");
+		escreva("-------------------\n");
+
+		escreva("-------------------------------------\n");
+		escreva(" Insira um número para a variável A: \n");
+		escreva("-------------------------------------\n");
 		leia(a);
-				
-		escreva("Insira um número para a variável B: ");
+		escreva("\n");
+
+		escreva("-------------------------------------\n");		
+		escreva(" Insira um número para a variável B: \n");
+		escreva("-------------------------------------\n");
 		leia(b);
+		escreva("\n");
 
 		troca = a;
 		a = b;
 		b = troca;
 		
-		
+		limpa();
 
-		escreva("A= " + a + "B= " + b);
+		escreva("---------------------\n")
+		escreva(" A= " + a + " B= " + b + "\n");
+		escreva("---------------------")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 712; 
+ * @POSICAO-CURSOR = 1019; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
