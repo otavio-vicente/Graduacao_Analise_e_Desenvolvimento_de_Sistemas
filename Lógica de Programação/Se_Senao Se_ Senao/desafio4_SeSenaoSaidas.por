@@ -25,11 +25,18 @@ programa
 		escreva("Informe o valor normal a ser pago por hora trabalhada: ")
 		leia(valorHr)
 
-		valorNormal = valorHr * 40
-		valorHrsExtra = (qtdHrs - 40) * (valorHr + (valorHr * 0.5))
-		salarioTotal = valorNormal + valorHrsExtra
-
+		valorNormal = valorHr * 40 * 4 //Total de um mês: 40hrs p/ semana * 4 semanas = 1 mês
 		
+		se (qtdHrs > 40) {
+			valorHrsExtra = (qtdHrs - 40) * (valorHr + (valorHr * 0.5))
+			salarioTotal = valorNormal + valorHrsExtra
+
+			escreva(" O salário total do funcionário é de: R$" + salarioTotal)
+		} senao {
+			salarioTotal = valorNormal
+			escreva("O salário total do funcionário é de: R$" + salarioTotal)
+		}
+
 		
 	}
 }
@@ -38,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1157; 
+ * @POSICAO-CURSOR = 1473; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {valorHr, 16, 15, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
