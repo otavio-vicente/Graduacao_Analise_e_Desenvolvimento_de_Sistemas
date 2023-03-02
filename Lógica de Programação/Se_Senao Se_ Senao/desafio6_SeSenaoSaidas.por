@@ -15,33 +15,41 @@ programa
 		
 		escreva("Olá!\n")
 		escreva("O objetivo desse programa é mostrar o maior número entre três números informados pelo usuário\n")
-
-		escreva("Informe o primeiro número: ")
+		
+		escreva("-----------------------------\n")
+		escreva("Informe o primeiro número: \n")
+		escreva("-----------------------------\n")
 		leia(n1)
 		limpa()
-		
-		escreva("Informe o segundo número: ")
+
+		escreva("-----------------------------\n")
+		escreva("Informe o segundo número: \n")
+		escreva("-----------------------------\n")
 		leia(n2)
 		limpa()
 
-		escreva("Informe o terceiro número: ")
+		escreva("-----------------------------\n")
+		escreva("Informe o terceiro número: \n")
+		escreva("-----------------------------\n")
 		leia(n3)
 		limpa()
 		
 		se ((n2 != n1) e (n3 != n2)) {
-			se ((n1 > n2) e (n1 > n3)) {
+			se ((n1 < n2) e (n1 < n3)) {
 				nrMaior = n1
-				escreva("O maior número é: " + nrMaior)
-			} senao se ((n2 > n1) e (n2 > n3)) {
+				escreva("O menor número é: " + nrMaior)
+			} senao se ((n2 < n1) e (n2 < n3)) {
 				nrMaior = n2
-				escreva("O maior número é: " + nrMaior)
+				escreva("O menor número é: " + nrMaior)
 			} senao {
 				nrMaior = n3
-				escreva("O maior número é: " + nrMaior)
+				escreva("O menor número é: " + nrMaior)
 			}
 			
 		} senao {
-			escreva("Não é possível repetir números...")
+			escreva("----------------------------------\n")
+			escreva("Não é possível repetir números...\n")
+			escreva("----------------------------------")
 		}
 	}
 
@@ -54,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1173; 
+ * @POSICAO-CURSOR = 1114; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
