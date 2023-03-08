@@ -1,5 +1,6 @@
 programa
 {
+	//Produzido por Otávio Henrique Vicente
 	
 	funcao inicio()
 	{
@@ -86,9 +87,7 @@ programa
 			escreva("Erro: A opção selecionada não existe...\n")
 			escreva("---------------------------------------------------------------\n")
 		}
-		//escreva("E) Área do Trapézio = (Lado Maior + Lado Menor) * altura / 2\n")
-		//Exibir em forma da formula
-		//Pedir os valores necessários
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -96,7 +95,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3288; 
+ * @POSICAO-CURSOR = 3185; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
